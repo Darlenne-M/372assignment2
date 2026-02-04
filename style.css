@@ -1,0 +1,59 @@
+#title {
+    background-color: rgba(0, 128, 0, 0.291);
+    padding: 20px;
+    text-align: center;
+    color: rgba(255, 166, 0, 0.377);
+
+}
+
+#body {
+    background-color: rgba(255, 166, 0, 0.075);
+}
+
+#intro {
+    border-bottom: 1px solid green;
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#main {}
+
+.restaurant {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    align-items: flex-start;
+
+}
+
+
+
+.dish-images {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+}
+
+.flex-item {
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    margin: 2px;
+    width: 200px;
+    height: 50px;
+    justify-content: space-evenly;
+}
+
+.images {
+    height: 400px;
+    width: 400;
+}
